@@ -1,0 +1,8 @@
+body {
+    margin: 6em 10em 0em 6em;
+}
+
+.qr>img {
+    margin: 0px auto;
+    padding: 1em;
+}

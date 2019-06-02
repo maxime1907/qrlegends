@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QR Legends - Home</title>
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="shortcut icon" href="resources/img/icon.png">
+    <script src="resources/js/qrcode.js"></script>
+
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="help.html">Help</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Player ID 1</label>
+                <input type="text" class="form-control text-center" id="id1" placeholder="Friend ID - 10 digits">
+                <label for="exampleFormControlInput1">Player ID 2</label>
+                <input type="text" class="form-control text-center" id="id2" placeholder="Friend ID - 10 digits">
+                <label for="exampleFormControlInput1">Player ID 3</label>
+                <input type="text" class="form-control text-center" id="id3" placeholder="Friend ID - 10 digits">
+                <label for="exampleFormControlInput1">Player ID 4</label>
+                <input type="text" class="form-control text-center" id="id4" placeholder="Friend ID - 10 digits">
+
+                <button class="btn btn-success mt-3" id="create">Create Codes</button>
+            </div>
+
+            <div class="my-3 text-center py-5">
+                <h3 class="text-center text-dark" id="titleqr" style="display:none;">QR Codes</h3>
+                <br>
+
+                <input class="text-center text-dark my-3 mx-auto" type="text" id="textqr1" style="display:none;" placeholder="Player 1 name">
+                <button class="btn btn-info mx-auto" id="change1" style="display:none;">Change Name</button>
+                <div id="qrcode1" class="qr"></div>
+            
+                <input class="text-center text-dark my-3 mx-auto" type="text" id="textqr2" style="display:none;" placeholder="Player 2 name">
+                <button class="btn btn-info mx-auto" id="change2" style="display:none;">Change Name</button>
+                <div id="qrcode2" class="qr"></div>
+
+            
+                <input class="text-center text-dark my-3 mx-auto" type="text" id="textqr3" style="display:none;" placeholder="Player 3 name">
+                <button class="btn btn-info mx-auto" id="change3" style="display:none;">Change Name</button>
+                <div id="qrcode3" class="qr"></div>
+
+            
+                <input class="text-center text-dark my-3 mx-auto" type="text" id="textqr4" style="display:none;" placeholder="Player 4 name">
+                <button class="btn btn-info mx-auto" id="change4" style="display:none;">Change Name</button>
+                <div id="qrcode4" class="qr"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="resources/js/main.js"></script>
+    <script src="resources/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="resources/js/popper.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+    <script src="resources/js/jquery.min.js"></script>
+
+</body>
+<footer class="fixed-bottom font-small bg-dark">
+    <div class="text-center py-3" style="color:white">© 2019 Copyright
+        <a href="https://github.com/maxime1907">maxime1907</a>
+    </div>
+</footer>
+</html>
